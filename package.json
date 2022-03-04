@@ -2,7 +2,10 @@
   "name": "ce",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {"build-storybook": "NODE_ENV=dev npx nx run components:build-storybook"},
+  "scripts": {
+    "build-storybook": "NODE_ENV=dev npx nx run components:build-storybook",
+    "chromatic": "npx chromatic --project-token=a5c8c79530de"
+  },
   "private": true,
   "dependencies": {
     "@cheapreats/types": "^1.0.4",
