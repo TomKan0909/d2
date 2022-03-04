@@ -27,4 +27,5 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: npm run chromatic
+    - run: npm install
+    - run: npm run chromatic
