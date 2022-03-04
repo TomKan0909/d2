@@ -1,0 +1,12 @@
+import React from 'react';
+import { Meta, Story } from '@storybook/react';
+import { Settings, SettingsProps } from '..';
+
+
+export default {
+    title: 'Components/Other/Settings',
+    component: Settings,
+    args: {},
+} as Meta;
+
+export const Basic: Story<SettingsProps> = (args) => <Settings {...args} />;

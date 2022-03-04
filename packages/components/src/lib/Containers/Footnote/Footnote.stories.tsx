@@ -1,0 +1,23 @@
+import React from 'react';
+import { Meta, Story } from '@storybook/react';
+import { Footnote, FootnoteProps } from '..';
+import {  getCaptionForLocale } from '../../Constants';
+import { SmallText } from '../../Text';
+
+export default {
+    title: 'Components/Other/Footnote',
+    component: Footnote,
+    args: {
+        show: true,
+        bold: true,
+        children: 'Toggle the show knob to hide me!',
+    },
+} as Meta;
+
+export const Basic: Story<FootnoteProps> = (args) => (
+    <Footnote {...args}>
+        <SmallText {...args}>
+            {getCaptionForLocale(args.children as string)}
+        </SmallText>
+    </Footnote>
+);

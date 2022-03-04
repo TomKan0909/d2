@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom", "es5", "es6", "DOM", "ES2020", "ESNext"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ce/components": ["packages/components/src/index.ts"],
+      "@cheapreats/tssdk": ["packages/tssdk/src/index.ts"]
+    },
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts", "./types/styled.d.ts"],
+  "files": ["./types/styled.d.ts"],
+  "exclude": ["node_modules", "tmp"]
+}

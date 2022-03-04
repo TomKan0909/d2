@@ -1,0 +1,33 @@
+{
+  "extends": "@nrwl/workspace/presets/core.json",
+  "npmScope": "ce",
+  "affected": {
+    "defaultBase": "main"
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/node"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "NTUxZDg3ZGYtMWY2NC00M2FiLThhY2YtZTc3NTRjNjlhOTQxfHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "defaultProject": "graphql",
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "styled-components",
+        "linter": "eslint"
+      }
+    }
+  }
+}
