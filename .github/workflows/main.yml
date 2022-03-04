@@ -9,9 +9,6 @@ on: push
 jobs:
   chromatic-deployment:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: frontend
     steps:
       - uses: actions/checkout@v1
       - name: Install dependencies
