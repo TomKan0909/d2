@@ -2,7 +2,7 @@
   "name": "ce",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {"build-storybook": "NODE_ENV=dev npx nx run components:build-storybook"},
   "private": true,
   "dependencies": {
     "@cheapreats/types": "^1.0.4",

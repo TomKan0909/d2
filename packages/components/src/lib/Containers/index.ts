@@ -96,7 +96,6 @@ export * from './TreeAccordion/TreeAccordion';
 export * from './ReachIndicator/ReachIndicator';
 export * from './InfoHeader/InfoHeader';
 export * from './StoreSelector/StoreSelector';
-export * from './ScreenFlashEffect/ScreenFlashEffect';
 export * from './PanelCard/PanelCard';
 export * from './DropArea/DropArea';
 export * from './PanelListWrapper/PanelListWrapper';
