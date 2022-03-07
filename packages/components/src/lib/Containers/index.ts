@@ -121,3 +121,4 @@ export * from './NumberIndicator';
 export * from './TimeDemand';
 export * from './Dropdown';
 export * from './ModalFooterLayout/ModalFooterLayout';
+export * from './Message/Message';
