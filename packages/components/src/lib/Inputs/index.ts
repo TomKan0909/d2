@@ -26,3 +26,4 @@ export * from './CartButton';
 export * from './NumberSelector/NumberSelector';
 export * from './CardCheckoutForm/CardCheckoutForm';
 export * from './Divider/Divider';
+export * from './IconViewer/IconViewer';
