@@ -1,9 +1,9 @@
-import React from 'react';
 import { Meta, Story } from '@storybook/react';
 import { Button } from '../../Inputs/Button/Button';
 
 import { IDropdownProps } from './Dropdown';
-import Dropdown from './index';
+import Dropdown from './Dropdown';
+import DropdownItem from './DropdownItem';
 
 export default {
     title: 'Components/Atoms/Dropdown',
@@ -17,26 +17,26 @@ export default {
 
 export const Basic: Story<IDropdownProps> = (args) => (
     <Dropdown {...args}>
-        <Dropdown.Item>Settings</Dropdown.Item>
-        <Dropdown.Item>Help Center</Dropdown.Item>
-        <Dropdown.Item>Logout</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
+        <DropdownItem>Settings</DropdownItem>
+        <DropdownItem>Help Center</DropdownItem>
+        <DropdownItem>Logout</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
     </Dropdown>
 );
 export const Scrolling: Story<IDropdownProps> = (args) => (
     <Dropdown {...args}>
-        <Dropdown.Item>Settings</Dropdown.Item>
-        <Dropdown.Item>Help Center</Dropdown.Item>
-        <Dropdown.Item>Logout</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
-        <Dropdown.Item>Testing</Dropdown.Item>
+        <DropdownItem>Settings</DropdownItem>
+        <DropdownItem>Help Center</DropdownItem>
+        <DropdownItem>Logout</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
+        <DropdownItem>Testing</DropdownItem>
     </Dropdown>
 );

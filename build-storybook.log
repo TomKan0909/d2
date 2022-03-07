@@ -1,5 +1,5 @@
 
-> nx run components:build-storybook --outputDir=/var/folders/zq/gjw60rj9251gksbh_sfj3vv40000gn/T/chromatic--50044-97ZGCS10V5zV
+> nx run components:build-storybook --outputDir=/var/folders/zq/gjw60rj9251gksbh_sfj3vv40000gn/T/chromatic--52200-Cuw3gNYeXGoh
 
 
 >  NX  ui framework: @storybook/react
@@ -13,24 +13,24 @@ info => Compiling manager..
 info => Compiling preview..
 info => Loading Nrwl React Storybook preset from "@nrwl/react/plugins/storybook"
 info => Using default Webpack5 setup
-info => Manager built (15 s)
+info => Manager built (12 s)
 WARN DefinePlugin
 WARN Conflicting values for 'process.env.NODE_ENV'
-info => Preview built (46 s)
+info => Preview built (36 s)
 WARN DefinePlugin
 WARN Conflicting values for 'process.env.NODE_ENV'
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
 WARN Assets: 
-WARN   main.bc1c541c.iframe.bundle.js (1.56 MiB)
+WARN   main.2a0223e3.iframe.bundle.js (1.55 MiB)
 WARN   90.3ae002c6.iframe.bundle.js (551 KiB)
-WARN   177.afaca9c0.iframe.bundle.js (5.21 MiB)
+WARN   688.fb7c72b5.iframe.bundle.js (5.19 MiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
-WARN   main (6.77 MiB)
+WARN   main (6.75 MiB)
 WARN       runtime~main.f5a67603.iframe.bundle.js
-WARN       177.afaca9c0.iframe.bundle.js
-WARN       main.bc1c541c.iframe.bundle.js
+WARN       688.fb7c72b5.iframe.bundle.js
+WARN       main.2a0223e3.iframe.bundle.js
 WARN 
 info => Output directory: /Users/tomkan/d2/dist/storybook/components
 
@@ -46,5 +46,5 @@ info => Output directory: /Users/tomkan/d2/dist/storybook/components
 
 
 
- >  NX   See run details at https://nx.app/runs/46jfpWpiM1A
+ >  NX   See run details at https://nx.app/runs/FappwZyYBwB
 
