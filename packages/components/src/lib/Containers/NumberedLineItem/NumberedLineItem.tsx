@@ -23,18 +23,12 @@ export const NumberedLineItem: React.FC<NumberedLineItemProps> = ({
   value,
   isActive = true,
   ...props
-}): React.ReactElement => {
-  return (
-    <Container {...props}>
-      <NumberIndicator
-        value={value}
-        isActive={isActive}
-        className="NumberIndicator"
-      />
-      <LabelText>{label}</LabelText>
-    </Container>
-  );
-};
+}): React.ReactElement => (
+  <Container {...props}>
+    <NumberIndicator value={value} isActive={isActive} />
+    <LabelText>{label}</LabelText>
+  </Container>
+);
 
 /**
  * Label text

@@ -22,6 +22,7 @@ export * from './SettingsSwitch/SettingsSwitch';
 export * from './SegmentedButton/SegmentedButton';
 export * from './SearchBarExpandable/SearchBarExpandable';
 export * from './PartySizeSelector/PartySizeSelector';
+export * from './CartButton';
 export * from './NumberSelector/NumberSelector';
 export * from './CardCheckoutForm/CardCheckoutForm';
 export * from './Divider/Divider';
