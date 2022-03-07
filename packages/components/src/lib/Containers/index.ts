@@ -122,3 +122,4 @@ export * from './TimeDemand';
 export * from './Dropdown';
 export * from './ModalFooterLayout/ModalFooterLayout';
 export * from './Message/Message';
+export * from './SnowFall/SnowFall';
